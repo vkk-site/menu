@@ -117,12 +117,84 @@ function showDay(id) {
 </div>
 </header>
 
+<div class="menu-type">
+<button onclick="showSection('daily')" data-ru="Ежедневное меню" data-kz="Күнделікті мәзір">Ежедневное меню</button>
+<button onclick="showSection('weekly')" data-ru="Меню по дням недели" data-kz="Апталық мәзір">Меню по дням</button>
+</div>   
+
+<div id="daily">
+
+<div class="card">
+<img src="tefteli.jpg">
+<h3 data-ru="Тефтели с картофельным пюре" data-kz="Картоп пюресімен тефтели"></h3>
+<p data-ru="Сочные тефтели из мясного фарша с гарниром из нежного картофельного пюре."
+   data-kz="Ет фаршынан дайындалған шырынды тефтели, жұмсақ картоп пюресімен бірге беріледі."></p>
+<p>КБЖУ: 350 ккал</p>
+<div class="price">600 тг</div>
+</div>
+
+<div class="card">
+<img src="borsch.jpg">
+<h3 data-ru="Борщ с курицей" data-kz="Тауық еті қосылған борщ"></h3>
+<p data-ru="Сытный борщ с кусочками курицы, капустой, картофелем и свеклой."
+   data-kz="Тауық еті, қырыққабат, картоп және қызылшамен дайындалған тойымды борщ."></p>
+<p>КБЖУ: 200 ккал</p>
+<div class="price">200 тг</div>
+</div>
+
+<div class="card">
+<img src="olivie.jpg">
+<h3 data-ru="Салат Оливье" data-kz="Оливье салаты"></h3>
+<p data-ru="Классический салат с колбасой, картофелем, яйцом и майонезом."
+   data-kz="Шұжық, картоп, жұмыртқа және майонез қосылған классикалық салат."></p>
+<p>КБЖУ: 250 ккал</p>
+<div class="price">250 тг</div>
+</div>
+
+<div class="card">
+<img src="crab.jpg">
+<h3 data-ru="Крабовый салат" data-kz="Краб салаты"></h3>
+<p data-ru="Легкий салат с крабовыми палочками, кукурузой и майонезом."
+   data-kz="Краб таяқшалары, жүгері және майонез қосылған жеңіл салат."></p>
+<p>КБЖУ: 240 ккал</p>
+<div class="price">250 тг</div>
+</div>
+
+<div class="card">
+<img src="pizza.jpg">
+<h3 data-ru="Мини пицца" data-kz="Мини пицца"></h3>
+<p data-ru="Пицца с тонким тестом и сыром."
+   data-kz="Жұқа қамыр мен ірімшік қосылған пицца."></p>
+<p>КБЖУ: 300 ккал</p>
+<div class="price">350 тг</div>
+</div>
+
+<div class="card">
+<img src="sausage.jpg">
+<h3 data-ru="Сосиска в тесте" data-kz="Қамырдағы сосиска"></h3>
+<p data-ru="Сосиска в мягком тесте."
+   data-kz="Жұмсақ қамырға оралған сосиска."></p>
+<p>КБЖУ: 280 ккал</p>
+<div class="price">250 тг</div>
+</div>
+
+<div class="card">
+<img src="pirojki.jpg">
+<h3 data-ru="Пирожки" data-kz="Пирожки"></h3>
+<p data-ru="Пирожки с капустой и картофелем."
+   data-kz="Қырыққабат пен картоп қосылған пирожки."></p>
+<p>КБЖУ: 300 ккал</p>
+<div class="price">300 тг</div>
+</div>
+
+</div>
+
 <div class="days">
-<button onclick="showDay('mon')">Пн</button>
-<button onclick="showDay('tue')">Вт</button>
-<button onclick="showDay('wed')">Ср</button>
-<button onclick="showDay('thu')">Чт</button>
-<button onclick="showDay('fri')">Пт</button>
+<button onclick="showDay('mon')" data-ru="Пн" data-kz="Дс">Пн</button>
+<button onclick="showDay('tue')" data-ru="Вт" data-kz="Сс">Вт</button>
+<button onclick="showDay('wed')" data-ru="Ср" data-kz="Ср">Ср</button>
+<button onclick="showDay('thu')" data-ru="Чт" data-kz="Бс">Чт</button>
+<button onclick="showDay('fri')" data-ru="Пт" data-kz="Жм">Пт</button>
 </div>
 
 <!-- ПОНЕДЕЛЬНИК -->
